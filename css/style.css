@@ -56,10 +56,10 @@ color: #434455;
     color: #404bbf;
 }
 
-.hero{
+.hero-title{
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -73,9 +73,11 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background-color: #4d5ae5;
+cursor: pointer;
 }
 
-.hero-btn:hover{
+.hero-btn:hover,
+.hero-btn:focus{
     background-color: #404bbf;
 }
 
@@ -95,13 +97,22 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.our-team{
+    background-color: #f4f4fd;
+}
+
 .our-team-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2e2f42;
+}
+
+.our-team-item{
+    background-color: #ffffff;
 }
 
 .our-team-name{
