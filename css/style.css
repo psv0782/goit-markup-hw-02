@@ -158,6 +158,11 @@ text-align: center;
 color: #2e2f42;
 }
 
+.portfolio-img{
+    width: 360px;
+height: 300px;
+}
+
 .portfolio-name{
 font-weight: 500;
 font-size: 20px;
